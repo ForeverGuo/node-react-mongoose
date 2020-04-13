@@ -1,0 +1,44 @@
+.content_search {
+    margin: 15px 0;
+}
+.content_search .ant-calendar-picker {
+    margin-right: 15px;
+    background: #5b6a7738;
+    border-radius: 4px;
+}
+.content_search .ant-input {
+    background: #5b6a7738;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.content_search .ant-select-selection {
+    background: #5b6a7738;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.content_search .ant-calendar-range-picker-separator {
+    color: #fff;
+}
+.content_search .ant-calendar-picker-icon {
+    color: #fff;
+}
+.content_search .ant-select-arrow {
+    color: #fff;
+}
+.content_search .ant-btn {
+    background: #5b6a7738;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.label_title {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px;
+    margin: 0 6px;
+}
+.app_input {
+    width: 180px !important;
+}

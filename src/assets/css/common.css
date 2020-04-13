@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'arial';
+    src: url("https://img-cdn.wezhuiyi.com/portal/static/font/arial2.eot#iefix") format("embedded-opentype"), url("https://img-cdn.wezhuiyi.com/portal/static/font/arial2.woff") format("woff"), url("https://img-cdn.wezhuiyi.com/portal/static/font/arial2.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'centurygothicbold';
+    src: url("https://img-cdn.wezhuiyi.com/portal/static/font/centurygothicbold.eot"), url("https://img-cdn.wezhuiyi.com/portal/static/font/centurygothicbold.woff") format("woff"), url("https://img-cdn.wezhuiyi.com/portal/static/font/centurygothicbold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Light';
+    src: url("https://img-cdn.wezhuiyi.com/portal/static/font/KaiGenGothicCN-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Regular';
+    src: url("https://img-cdn.wezhuiyi.com/portal/static/font/KaiGenGothicCN-Regular.ttf") format("opentype");
+}
+  
+body #app, body #detailApp, html #app, html #detailApp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: "Microsoft YaHei","SourceHanSansCN-Regular", "arial";
+    background-color: #283035;
+    color: #fff;
+}
+  
+  
+a {
+    -moz-transition: color 0.2s ease, border-bottom 0.2s ease;
+    -webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
+    -ms-transition: color 0.2s ease, border-bottom 0.2s ease;
+    transition: color 0.2s ease, border-bottom 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+  }

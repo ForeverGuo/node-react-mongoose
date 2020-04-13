@@ -1,0 +1,104 @@
+@import './common.css';
+.ant-layout-sider {
+    height: 100vw !important;
+}
+.ant-layout-header{
+    padding: 0 25px !important;
+    background: #283035 !important;
+    /* box-shadow: 0 1px 15px 1px rgba(69,65,78,.1) !important; */
+}
+.logo {
+    background-image:url('../image/logo.png');
+    width: 175px;
+    height: 85%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin: 5px 0;
+    float: left;
+}
+.ant-dropdown-link {
+    float: right;
+    color: #fff;
+}
+.ant-dropdown-link:hover {
+    color: #fff;
+}
+:root .ant-dropdown-trigger > .anticon.anticon-down, :root .ant-dropdown-link > .anticon.anticon-down {
+    padding-left: 12px;
+    color: #fff;
+}
+.ant-dropdown{
+    position: absolute !important;
+    top: 48px !important;
+}
+.ant-dropdown-menu {
+    background: #283035 !important;
+}
+.ant-dropdown-menu-item > a {
+    color: #fff !important;
+}
+.ant-dropdown-menu-item-active {
+    background: #384e65 !important;
+}
+.ant-layout {
+    padding: 0 !important;
+}
+.layout_contain {
+    background: #283035 !important;
+    /* min-height: 900px !important; */
+    padding: 0 20px;
+    /* box-shadow: 0 1px 15px 1px rgba(69,65,78,.1); */
+}
+
+/*-- 侧边栏 --*/
+.ant-menu-submenu {
+    padding: 12px 0;
+    color: #fff !important;
+}
+.ant-menu-item-selected {
+    background-color: #384e65 !important;
+    color: #fff !important;
+    border-right: 3px solid red !important;
+}
+.ant-menu-item {
+    background: #283035;
+    color: #80686f;
+    margin: 0 !important;
+    font-size: 17px !important;
+    font-weight: 600;
+    height: 50px !important;
+    line-height: 50px !important;
+    margin: 12px 0 !important;
+}
+.ant-menu-item .anticon {
+    font-size: 20px !important;
+}
+.ant-menu-item-active , .ant-menu-submenu-active {
+    color: #fff !important;
+    background: #fff !important;
+}
+.ant-menu-submenu:hover {
+    background-color: #384e65 !important;
+    color: #fff !important; 
+}
+.ant-menu-item:hover {
+    background-color: #384e65 !important;
+    color: #fff !important;
+}
+.ant-menu-item span a {
+    color: #fff;
+}
+.ant-menu-dark {
+    background: #283035 !important;
+}
+.ant-menu-item-selected > a {
+    color: #fff !important;
+}
+.common-title {
+    color: #fff;
+    font-size: 18px;
+    text-indent: 4px;
+    padding: 8px;
+    margin: 8px 0;
+}

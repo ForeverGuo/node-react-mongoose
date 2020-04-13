@@ -1,0 +1,21 @@
+.errorContent td{
+    color: #fff !important;
+}
+.hoverRowSty {
+    background-color: #283035;
+}
+.ant-table-tbody>.hoverRowSty:hover>td {
+    background-color: #283035 !important;
+}
+.ant-table-pagination.ant-pagination {
+    float: right;
+    margin: 16px 0;
+    display: none;
+}
+.ant-pagination {
+    float: right;
+    margin: 16px 0 !important;
+}
+.ant-pagination .ant-pagination-item-ellipsis {
+    color: #fff !important;
+}
